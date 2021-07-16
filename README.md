@@ -1,0 +1,2 @@
+# Infectious-Disease-Simulation
+The nonlinear Susceptible-Infected-Recovered (SIR) model on undirected graphs is simplified for COVID-19 simulations by assuming no recoveries in the simulation time scale. The dynamics of this model is approximated by non-linearly post processed action of matrix exponential computed via the Lanczos algorithm.The spreaders were identified via the subgraph-centrality, which is also efficiently computed using Lanczos approximations of the matrix exponential.
